@@ -21,5 +21,37 @@ h1, h2, h3 {
 }
 
 #logo {
+    font-size: 150%;
     float: left;
+}
+
+/* navigation links */
+
+#menu {
+    font-size: 80%;
+    letter-spacing: 6px;
+}
+
+#menu, #logo {
+    line-height: 100px;
+}
+
+#menu li {
+    float: right;
+    list-style-type: none;
+    margin-right: 40px;
+}
+#menu a {
+    text-decoration: none;
+    color: inherit;
+}
+
+#menu a:hover {
+    border: 1px solid #85C5D4;
+    padding: 10px;
+}
+
+.active {
+    border: 1px solid #85C5D4;
+    padding: 10px;
 }
