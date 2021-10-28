@@ -128,3 +128,16 @@ footer {
     padding: 5%;
     color: #3a3a3a;
 }
+
+/* un sdg's */
+
+#sdg {
+    clear: both;
+    line-height: 0;
+    column-count: 6;
+    column-gap: 0;
+}
+
+#sdg > img {
+    width: 100%;
+}
