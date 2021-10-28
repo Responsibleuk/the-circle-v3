@@ -8,4 +8,18 @@
 body {
     font-family: merriweather-sans, sans-serif;
     font-weight: 300;
+    color: #0C3C60;
+}
+
+/* heading and logo */
+
+h1, h2, h3 {
+    font-family: raleway, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 6px;
+    color: #0C3C60;
+}
+
+#logo {
+    float: left;
 }
