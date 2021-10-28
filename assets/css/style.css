@@ -23,6 +23,7 @@ h1, h2, h3 {
 #logo {
     font-size: 150%;
     float: left;
+    padding-left: 30px;
 }
 
 /* navigation links */
@@ -55,3 +56,12 @@ h1, h2, h3 {
     border: 1px solid #85C5D4;
     padding: 10px;
 }
+
+/* hero image */
+
+#hero-image {
+    height: 600px;
+    width: 100%;
+    background: url(../images/polar-ice-caps-melting.jpg) no-repeat center center;
+}
+
