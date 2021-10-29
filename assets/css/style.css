@@ -192,6 +192,14 @@ footer {
     column-gap: 0;
 }
 
-#sdg > img {
+#sdg a {
+    height: auto;
+    width: auto;
+    margin: none;
+    padding: none;
+}
+
+#sdg img {
     width: 100%;
+    height: 250px;
 }
