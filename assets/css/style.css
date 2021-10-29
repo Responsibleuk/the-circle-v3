@@ -188,8 +188,10 @@ footer {
 #sdg {
     clear: both;
     line-height: 0;
-    column-count: 6;
+    column-count: 5;
     column-gap: 0;
+    margin: 0;
+    padding: 0;
 }
 
 #sdg a {
@@ -197,6 +199,7 @@ footer {
     width: auto;
     margin: none;
     padding: none;
+    box-sizing: inherit;
 }
 
 #sdg img {
