@@ -25,7 +25,7 @@
                     <a href="awareness.html">Awareness</a>
                 </li>
                 <li>
-                    <a href="Inspiration.html" class="active">Inspiration</a>
+                    <a href="inspiration.html" class="active">Inspiration</a>
                 </li>
                 <li>
                     <a href="action.html">Action</a>
@@ -34,7 +34,60 @@
             </ul> 
         </nav>
     </header>
-    <body>Placeholder</body>
+
+    <!-- video gallery -->
+    <body>
+      <section>
+        <div class="container">
+          <div class="main-video">
+              <video src="videos/button.mp4" autoplay muted controls></video>
+              <i class='bx bx-x close'></i>
+          </div>
+          <div class="videos">
+            <video src="videos/button.mp4"></video>
+            <i class='bx bx-play-circle'></i>
+          </div>
+          <div class="videos">
+            <video src="videos/website.mp4"></video>
+            <i class='bx bx-play-circle'></i>
+          </div>
+          <div class="videos">
+            <video src="videos/sidebar.mp4"></video>
+            <i class='bx bx-play-circle'></i>
+          </div>
+          <div class="videos">
+            <video src="videos/productCard.mp4"></video>
+            <i class='bx bx-play-circle'></i>
+          </div>
+        </div>
+      </section>
+    
+      <script>
+        const section = document.querySelector("section"),
+        mainVideo = document.querySelector(".main-video video"),
+         videos = document.querySelectorAll(".videos"),
+         close = document.querySelector(".close");
+    
+         for (var i = 0; i < videos.length; i++) {
+           videos[i].addEventListener("click", (e)=>{
+             const target = e.target;
+             section.classList.add("active");
+             target.classList.add("active");
+             let src = document.querySelector(".videos.active video").src;
+             mainVideo.src = src;
+    
+             close.addEventListener("click", ()=>{
+               section.classList.remove("active");
+               target.classList.remove("active");
+               mainVideo.src = "";
+             });
+           });
+         };
+      </script>
+    </body>
+    </html>
+    
+   <!-- footer -->
     <footer>
         <ul class="social-networks">
             <li>
