@@ -359,9 +359,8 @@ footer {
 
   /* what can I do */
   #times {
-    background-image: url('../images/hero-images/flooding-india.jpg');
+    background-image: url('../images/hero-images/extreme-drought.jpg');
     background-repeat: no-repeat;
-    background-size: cover;
     background-position: center;
     width: 162.5%;
     overflow: hidden;
@@ -381,9 +380,4 @@ footer {
 
 #times h2 {
     color: #fafafa;
-  }
-
-  .text-white {
-    text-decoration: #fafafa;
-  }
   
