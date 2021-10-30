@@ -20,6 +20,7 @@ h1, h2, h3 {
     color: #0C3C60;
 }
 
+/* logo */
 #logo {
     font-size: 150%;
     float: left;
@@ -27,20 +28,21 @@ h1, h2, h3 {
 }
 
 /* navigation links */
-
 #menu {
     font-size: 80%;
     letter-spacing: 6px;
+    background-color: #fff;
 }
 
 #menu, #logo {
-    line-height: 100px;
+    line-height: 70px;
 }
 
 #menu li {
     float: right;
     list-style-type: none;
     margin-right: 40px;
+    
 }
 #menu a {
     text-decoration: none;
@@ -62,13 +64,15 @@ h1, h2, h3 {
 #hero-image {
     height: 600px;
     width: 100%;
+    overflow: hidden;
     background: url(../images/hero-images/polar-ice-caps-melting.jpg) no-repeat center center;
 }
 
 #hero-image-climate-justice {
   height: 600px;
   width: 100%;
-  background: url(../images/polar-ice-caps-melting.jpg) no-repeat center center;
+  overflow: hidden;
+  background: url(../images/hero-images/extreme-drought.jpg) no-repeat center center;
 }
 
 #hero-quote {
@@ -186,7 +190,7 @@ footer {
     font-size: 160%;
     margin: 1%;
     padding: 5%;
-    color: #3a3a3a;
+    color: white;
 }
 
 /* un sdg's */
@@ -310,7 +314,6 @@ footer {
     font-weight: bold;
     background: #0099FF;
     color: #FFFFFF;
-    font-family: "ProximaNova";
     border-radius: 3px;
     text-transform: uppercase;
     text-shadow: 0 0 1px #0084DB;
