@@ -344,21 +344,17 @@ footer {
   }
 
   /* climate justice */
-  .container {
-    display: grid;
-    grid-template-columns: 2.5fr 1.5fr;
-    grid-template-rows: 1.9fr 1.1fr;
-    gap: 0px 0px;
-    grid-auto-flow: row;
-    grid-template-areas:
+  .container-cj {
+    display: grid; 
+    grid-template-columns: 2.5fr 1.5fr; 
+    grid-template-rows: 1.9fr 1.1fr; 
+    gap: 20px 20px; 
+    grid-template-areas: 
       "what facts"
-      "action action";
+      "action action"; 
   }
-  
   .facts { grid-area: facts; }
-  
   .what { grid-area: what; }
-  
   .action { grid-area: action; }
 
   /* what can I do */
@@ -367,7 +363,7 @@ footer {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    width: 200%;
+    width: 162.5%;
     overflow: hidden;
 }
 
@@ -385,4 +381,9 @@ footer {
 
 #times h2 {
     color: #fafafa;
+  }
+
+  .text-white {
+    text-decoration: #fafafa;
+  }
   
