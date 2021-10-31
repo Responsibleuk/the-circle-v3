@@ -85,6 +85,13 @@ h1, h2, h3 {
   background: url(../images/hero-images/flooding-india.jpg) no-repeat center center;
 }
 
+#hero-image-oil-refinery {
+  height: 600px;
+  width: 100%;
+  overflow: hidden;
+  background: url(../images/hero-images/oil-refinery.jpg) no-repeat center center;
+}
+
 #hero-quote {
     font-size: 200%;
     font-family: raleway, sans-serif;
