@@ -113,6 +113,12 @@ h1, h2, h3 {
   background: url(../images/hero-images/after-forest-fire.jpg) no-repeat center center;
 }
 
+#hero-image-truth {
+  height: 400px;
+  width: 100%;
+  overflow: hidden;
+  background: url(../images/hero-images/truth.jpg) no-repeat center center;
+}
 #hero-quote {
     font-size: 200%;
     font-family: raleway, sans-serif;
