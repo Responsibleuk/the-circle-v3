@@ -282,7 +282,7 @@ footer {
 
   .emailSignup {
     display: block;
-    background: #313131;
+    background: #0C3C60;
     width: 100%;
     margin: 0 0 20px;
     position: relative;
@@ -322,11 +322,11 @@ footer {
     line-height: 46px;
     font-size: 22px;
     font-weight: bold;
-    background: #0099FF;
+    background: #85C5D4;
     color: #FFFFFF;
     border-radius: 3px;
     text-transform: uppercase;
-    text-shadow: 0 0 1px #0084DB;
+    text-shadow: 0 0 1px #85C5D4;
   }
   .closeBox {
     height: 30px;
@@ -358,26 +358,5 @@ footer {
   .action { grid-area: action; }
 
   /* what can I do */
-  #times {
-    background-image: url('../images/hero-images/extreme-drought.jpg');
-    background-repeat: no-repeat;
-    background-position: center;
-    width: 162.5%;
-    overflow: hidden;
-}
-
-#times div {
-    color: #fafafa;
-    background-color: rgba(0, 0, 0, .6);
-    width: 20%;
-    height: 300px;
-    float: left;
-    padding: 30px 0 0 10px;
-    text-align: center;
-    border: 2px solid white;
-    box-sizing: border-box;
-}
-
-#times h2 {
-    color: #fafafa;
+  
   
