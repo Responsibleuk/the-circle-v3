@@ -99,6 +99,13 @@ h1, h2, h3 {
   background: url(../images/hero-images/protest) no-repeat center center;
 }
 
+#hero-image-hope {
+  height: 400px;
+  width: 100%;
+  overflow: hidden;
+  background: url(../images/hero-images/protest.jpg) no-repeat center center;
+}
+
 #hero-quote {
     font-size: 200%;
     font-family: raleway, sans-serif;
