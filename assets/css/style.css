@@ -274,6 +274,107 @@ footer {
   height: 250px;
 }
 
+/* awareness pages */
+/* awareness page styling */
+.awarenes-layout-padding {
+  padding-left: 110px;
+  padding-right: 70px;
+}
+
+.page-title {
+  @media (min-width: 1200px) .page-title-wrapper {}
+
+  @media (min-width: 1200px) .page-title-wrapper {
+      max-width: 676px;
+      margin-top: -95px;
+      margin-left: -40px;
+      padding: 25px 80px 70px 40px;
+  }
+
+  @media (min-width: 1060px) .page-title-wrapper {
+      position: relative;
+      z-index: 120;
+      background: white;
+      max-width: 640px;
+      margin-top: -70px;
+      margin-left: -30px;
+      padding: 20px 30px 70px 30px;
+  }
+
+  @media (min-width: 777px) .page-title-wrapper {
+      padding: 30px 0;
+  }
+
+  .page-title {
+      padding: 20px 0;
+  }
+
+  * {
+      box-sizing: border-box;
+  }
+
+  margin-bottom: 60px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.awareness-columns {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+.awareness-about 
+{padding-top: 30px;
+width: 33%;
+float: left;}
+
+.global-solutions {
+padding-top: 30px;
+width: 66%;
+float: :right;}
+
+.individual-solutions
+/* club ethosd */
+
+#club-ethos {
+  height: 600px;
+}
+
+#left-about {
+  padding-top: 30px;
+  padding-right: 100px;
+  width: 33%;
+  float: left;
+}
+
+/* #left-about-image {
+  height: 100px;
+  width: 100px;
+  overflow: hidden;
+  float: left;
+  background: url(../images/quote-1.jpg) no-repeat center center;
+} */
+
+#right-about {
+  padding-top: 30px;
+  width: 66%;
+  padding-left: 50px;
+  float: right;
+}
+
+/* awareness image */
+#awareness-image {
+  height: 100px;
+  width: 100%;
+  padding-bottom: 250px;
+  overflow: hidden;
+  background: url(../images/waste.jpg) no-repeat center center;
+
+}
+
 /* footer */
 
 .emailSignup {
