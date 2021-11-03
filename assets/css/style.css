@@ -46,7 +46,8 @@ ul {
   padding-left: 0;
 }
 
-#menu, #logo {
+#menu,
+#logo {
   line-height: 70px;
 }
 
@@ -262,6 +263,8 @@ footer {
 }
 
 #sdg a {
+  display: flex;
+  flex: wrap;
   height: auto;
   width: auto;
   margin: none;
@@ -285,32 +288,32 @@ footer {
   @media (min-width: 1200px) .page-title-wrapper {}
 
   @media (min-width: 1200px) .page-title-wrapper {
-      max-width: 676px;
-      margin-top: -95px;
-      margin-left: -40px;
-      padding: 25px 80px 70px 40px;
+    max-width: 676px;
+    margin-top: -95px;
+    margin-left: -40px;
+    padding: 25px 80px 70px 40px;
   }
 
   @media (min-width: 1060px) .page-title-wrapper {
-      position: relative;
-      z-index: 120;
-      background: white;
-      max-width: 640px;
-      margin-top: -70px;
-      margin-left: -30px;
-      padding: 20px 30px 70px 30px;
+    position: relative;
+    z-index: 120;
+    background: white;
+    max-width: 640px;
+    margin-top: -70px;
+    margin-left: -30px;
+    padding: 20px 30px 70px 30px;
   }
 
   @media (min-width: 777px) .page-title-wrapper {
-      padding: 30px 0;
+    padding: 30px 0;
   }
 
   .page-title {
-      padding: 20px 0;
+    padding: 20px 0;
   }
 
   * {
-      box-sizing: border-box;
+    box-sizing: border-box;
   }
 
   margin-bottom: 60px;
@@ -326,15 +329,17 @@ footer {
   clear: both;
 }
 
-.awareness-about 
-{padding-top: 30px;
-width: 33%;
-float: left;}
+.awareness-about {
+  padding-top: 30px;
+  width: 33%;
+  float: left;
+}
 
 .global-solutions {
-padding-top: 30px;
-width: 66%;
-float: :right;}
+  padding-top: 30px;
+  width: 66%;
+  float: :right;
+}
 
 .individual-solutions
 /* club ethosd */
@@ -471,4 +476,33 @@ float: :right;}
   grid-area: action;
 }
 
-/* what can I do */
+/* testing flex */
+
+
+}
+
+.flex-grid {
+  display: block;
+  height: auto;
+  max-width: 20%;
+}
+.col {
+  float: left;
+  width: 16%;
+  padding-left: 5px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+/* Clear floats after image containers */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
