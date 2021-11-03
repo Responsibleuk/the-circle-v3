@@ -21,7 +21,30 @@ h3 {
   text-transform: uppercase;
   letter-spacing: 6px;
   color: #0C3C60;
+  padding-bottom: 20px;
 }
+
+h4 {
+  font-family: raleway, sans-serif;
+  font-size: larger;
+  font-weight: bolder;
+  color: #0C3C60;
+  padding-bottom: 100px;
+}
+
+p {font-family: raleway, sans-serif;
+  color: slategray;
+  padding-bottom: 20px;
+  }
+
+  /* ordered lists */
+li {
+  list-style-position: inside;
+  font-family: raleway, sans-serif;
+  color: slategray;
+  padding-bottom: 5px;}
+  
+  
 
 /* logo */
 #logo {
@@ -205,53 +228,9 @@ html {
     width: 100%;
     display: block;
   }
+
+  /* un sdg's */
 }
-
-/* awareness */
-
-#awareness-about {
-
-  font-family: raleway, sans-serif;
-  text-transform: uppercase;
-  text-align-last: center;
-
-
-  width: 1200px;
-  height: 250px;
-
-  border-bottom: 30px;
-
-}
-
-#awareness {
-  padding-top: 30px;
-  width: 16.6%;
-  float: left
-}
-
-/* footer */
-
-footer {
-  height: 150px;
-}
-
-.social-networks {
-  text-align: center;
-}
-
-.social-networks>li {
-  display: inline;
-}
-
-.social-networks i {
-  font-size: 160%;
-  margin: 1%;
-  padding: 5%;
-  color: white;
-}
-
-/* un sdg's */
-
 #sdg {
 
   clear: both;
@@ -278,11 +257,33 @@ footer {
 }
 
 /* awareness pages */
-/* awareness page styling */
-.awarenes-layout-padding {
-  padding-left: 110px;
-  padding-right: 70px;
+
+#awareness-about {
+
+  font-family: raleway, sans-serif;
+  text-transform: uppercase;
+  text-align-last: center;
+
+
+  width: 1200px;
+  height: 250px;
+
+  border-bottom: 30px;
+
 }
+
+#awareness {
+  padding-top: 30px;
+  width: 16.6%;
+  float: left
+}
+
+
+/* awareness pages */
+/* awareness page styling */
+/* .awarenes-layout-padding {
+  padding-top: 20px;
+} */
 
 .page-title {
   @media (min-width: 1200px) .page-title-wrapper {}
@@ -309,7 +310,7 @@ footer {
   }
 
   .page-title {
-    padding: 20px 0;
+    padding-top: 50px 0;
   }
 
   * {
@@ -341,19 +342,14 @@ footer {
   float: :right;
 }
 
-.individual-solutions
-/* club ethosd */
-
-#club-ethos {
-  height: 600px;
-}
-
 #left-about {
   padding-top: 30px;
   padding-right: 100px;
   width: 33%;
   float: left;
 }
+
+
 
 /* #left-about-image {
   height: 100px;
@@ -378,6 +374,87 @@ footer {
   overflow: hidden;
   background: url(../images/awareness/waste-banner.jpg) no-repeat center center;
 
+}
+
+/* awareness page styling */
+.awarenes-layout-padding {
+  padding-left: 110px;
+  padding-right: 70px;
+}
+
+.page-title {
+  @media (min-width: 1200px) .page-title-wrapper {}
+
+  @media (min-width: 1200px) .page-title-wrapper {
+      max-width: 676px;
+      margin-top: -95px;
+      margin-left: -40px;
+      padding: 25px 80px 70px 40px;
+  }
+
+  @media (min-width: 1060px) .page-title-wrapper {
+      position: relative;
+      z-index: 120;
+      background: white;
+      max-width: 640px;
+      margin-top: -70px;
+      margin-left: -30px;
+      padding: 20px 30px 70px 30px;
+  }
+
+  @media (min-width: 777px) .page-title-wrapper {
+      padding: 30px 0;
+  }
+
+  .page-title {
+      padding: 20px 0;
+  }
+
+  * {
+      box-sizing: border-box;
+  }
+
+  margin-bottom: 60px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.awareness-columns {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+.awareness-about {
+padding-top: 30px;
+width: 33%;
+float: left;}
+
+.global-solutions {
+padding-top: 30px;
+width: 66%;
+float: :right;}
+
+.individual {
+padding-top: 30px;
+width: 66%;
+float: :right;
+}
+
+/* ordered lists */
+li {
+list-style-position: inside;}
+
+
+}
+
+#left-about {
+  padding-top: 30px;
+  padding-right: 150px;
+  width: 33%;
+  float: left;
 }
 
 /* footer */
