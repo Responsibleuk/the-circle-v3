@@ -32,19 +32,21 @@ h4 {
   padding-bottom: 20px;
 }
 
-p {font-family: raleway, sans-serif;
+p {
+  font-family: raleway, sans-serif;
   color: slategray;
   padding-bottom: 20px;
-  }
+}
 
-  /* ordered lists */
+/* ordered lists */
 li {
   list-style-position: inside;
   font-family: raleway, sans-serif;
   color: slategray;
-  padding-bottom: 20px;}
-  
-  
+  padding-bottom: 20px;
+}
+
+
 
 /* logo */
 #logo {
@@ -231,6 +233,7 @@ html {
 
   /* un sdg's */
 }
+
 #sdg {
 
   clear: both;
@@ -279,6 +282,8 @@ html {
 }
 
 
+
+
 /* awareness pages */
 /* awareness page styling */
 .awarenes-layout-padding {
@@ -301,7 +306,7 @@ html {
 .global-solutions {
   padding-top: 30px;
   width: 66%;
-  float: :right;
+  float: right;
 }
 
 #left-about {
@@ -344,45 +349,6 @@ html {
   padding-right: 70px;
 }
 
-.page-title {
-  @media (min-width: 1200px) .page-title-wrapper {}
-
-  @media (min-width: 1200px) .page-title-wrapper {
-      max-width: 676px;
-      margin-top: -95px;
-      margin-left: -40px;
-      padding: 25px 80px 70px 40px;
-  }
-
-  @media (min-width: 1060px) .page-title-wrapper {
-      position: relative;
-      z-index: 120;
-      background: white;
-      max-width: 640px;
-      margin-top: -70px;
-      margin-left: -30px;
-      padding: 20px 30px 70px 30px;
-  }
-
-  @media (min-width: 777px) .page-title-wrapper {
-      padding: 30px 0;
-  }
-
-  .page-title {
-      padding: 20px 0;
-  }
-
-  * {
-      box-sizing: border-box;
-  }
-
-  margin-bottom: 60px;
-}
-
-* {
-  box-sizing: border-box;
-}
-
 .awareness-columns {
   content: '';
   display: table;
@@ -390,27 +356,28 @@ html {
 }
 
 .awareness-about {
-padding-top: 30px;
-width: 33%;
-float: left;}
+  padding-top: 30px;
+  width: 33%;
+  float: left;
+}
 
 .global-solutions {
-padding-top: 30px;
-width: 66%;
-float: :right;}
+  padding-top: 30px;
+  width: 66%;
+  float: right;
+}
 
 .individual {
-padding-top: 30px;
-width: 66%;
-float: :right;
+  padding-top: 30px;
+  width: 66%;
+  float: right;
 }
 
 /* ordered lists */
 li {
-list-style-position: inside;}
-
-
+  list-style-position: inside;
 }
+
 
 #left-about {
   padding-top: 30px;
@@ -516,9 +483,6 @@ list-style-position: inside;}
 }
 
 /* testing flex */
-
-
-}
 
 .flex-grid {
   display: block;
