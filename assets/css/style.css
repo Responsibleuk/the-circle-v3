@@ -71,7 +71,8 @@ ul {
   padding-left: 0;
 }
 
-#menu, #menu li {
+#menu,
+#menu li {
   list-style-type: none;
   margin-right: 40px;
 
@@ -166,6 +167,8 @@ ul {
 
 /* about */
 
+
+
 html {
   box-sizing: border-box;
 }
@@ -175,6 +178,8 @@ html {
 *:after {
   box-sizing: inherit;
 }
+
+
 
 .awareness-six {
   padding-left: 100px;
@@ -254,6 +259,7 @@ html {
   height: 250px;
 }
 
+
 /* awareness pages */
 
 #awareness-about {
@@ -263,7 +269,7 @@ html {
   text-align-last: center;
 
 
-  width: 1200px;
+  width: 1250px;
   height: 250px;
 
   border-bottom: 30px;
@@ -282,7 +288,7 @@ html {
 /* awareness pages */
 /* awareness page styling */
 .awarenes-layout-padding {
-  padding-left: 110px;
+  padding-left: 150px;
   padding-right: 70px;
 }
 
@@ -294,6 +300,7 @@ html {
 
 .awareness-about {
   padding-top: 30px;
+  padding-left: 100px;
   width: 33%;
   float: left;
 }
@@ -304,28 +311,23 @@ html {
   float: right;
 }
 
-#left-about {
-  padding-top: 30px;
-  padding-right: 100px;
-  width: 33%;
-  float: left;
-}
-
-
-
-/* #left-about-image {
-  height: 100px;
-  width: 100px;
-  overflow: hidden;
-  float: left;
-  background: url(../images/quote-1.jpg) no-repeat center center;
-} */
-
 #right-about {
   padding-top: 30px;
   width: 66%;
   padding-left: 50px;
   float: right;
+}
+
+#left-about {
+  padding-top: 30px;
+  padding-right: 150px;
+  width: 33%;
+  float: left;
+}
+
+/* ordered lists */
+li {
+  list-style-position: inside;
 }
 
 /* awareness image */
@@ -338,48 +340,8 @@ html {
 
 }
 
-/* awareness page styling */
-.awarenes-layout-padding {
-  padding-left: 110px;
-  padding-right: 70px;
-}
-
-.awareness-columns {
-  content: '';
-  display: table;
-  clear: both;
-}
-
-.awareness-about {
-  padding-top: 30px;
-  width: 33%;
-  float: left;
-}
-
-.global-solutions {
-  padding-top: 30px;
-  width: 66%;
-  float: right;
-}
-
-.individual {
-  padding-top: 30px;
-  width: 66%;
-  float: right;
-}
-
-/* ordered lists */
-li {
-  list-style-position: inside;
-}
 
 
-#left-about {
-  padding-top: 30px;
-  padding-right: 150px;
-  width: 33%;
-  float: left;
-}
 
 /* footer */
 
@@ -516,16 +478,19 @@ li {
   width: 100%;
   margin: 0 auto;
 }
+
 #nav ul {
   margin: 0;
   padding: 0;
   list-style-type: none;
 }
+
 #nav ul li {
   margin: 0;
   padding: 0;
   float: left;
 }
+
 #nav ul li a {
   text-decoration: none;
   padding: 10px 20px;
@@ -533,3 +498,15 @@ li {
   color: #FFF;
   text-align: center;
 }
+
+/* .column-half {
+    float: left;
+    width: 50%;
+  }
+  
+  /* Clear floats after the columns */
+  /* .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  } */ */
