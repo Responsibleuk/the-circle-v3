@@ -71,12 +71,7 @@ ul {
   padding-left: 0;
 }
 
-#menu,
-#logo {
-  line-height: 70px;
-}
-
-#menu li {
+#menu, #menu li {
   list-style-type: none;
   margin-right: 40px;
 
@@ -100,49 +95,49 @@ ul {
 /* hero image */
 
 #hero-image {
-  height: 400px;
+  height: 500px;
   width: 100%;
   overflow: hidden;
   background: url(../images/hero-images/polar-ice-caps-melting.jpg) no-repeat center center;
 }
 
 #hero-image-climate-justice {
-  height: 400px;
+  height: 500px;
   width: 100%;
   overflow: hidden;
   background: url(../images/hero-images/flooding-india.jpg) no-repeat center center;
 }
 
 #hero-image-oil-refinery {
-  height: 400px;
+  height: 500px;
   width: 100%;
   overflow: hidden;
   background: url(../images/hero-images/oil-refinery.jpg) no-repeat center center;
 }
 
 #hero-image-protest {
-  height: 400px;
+  height: 500px;
   width: 100%;
   overflow: hidden;
   background: url(../images/hero-images/protest) no-repeat center center;
 }
 
 #hero-image-hope {
-  height: 400px;
+  height: 500px;
   width: 100%;
   overflow: hidden;
   background: url(../images/hero-images/protest.jpg) no-repeat center center;
 }
 
 #hero-image-inspiration {
-  height: 400px;
+  height: 500px;
   width: 100%;
   overflow: hidden;
   background: url(../images/hero-images/after-forest-fire.jpg) no-repeat center center;
 }
 
 #hero-image-truth {
-  height: 400px;
+  height: 500px;
   width: 100%;
   overflow: hidden;
   background: url(../images/hero-images/after-forest-fire.jpg) no-repeat center center;
