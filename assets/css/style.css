@@ -35,7 +35,8 @@ h4 {
 p {
   font-family: raleway, sans-serif;
   color: slategray;
-  padding-bottom: 20px;
+  padding-bottom: 20px
+
 }
 
 /* ordered lists */
@@ -45,8 +46,6 @@ li {
   color: slategray;
   padding-bottom: 20px;
 }
-
-
 
 /* logo */
 #logo {
@@ -165,7 +164,30 @@ ul {
   position: absolute;
 }
 
-/* about */
+/* home */
+
+.introduction {
+  padding-top: 50px;
+  padding-left: 100px;
+  padding-right: 100px;
+  text-align: left;
+  background-color: white;
+}
+
+/* images home page */
+
+.flex-grid-home {
+  display: block;
+  padding-left: 100px;
+}
+
+.col-home {
+  float: left;
+  width: 5%;
+  padding-left: 5px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
 
 
 
@@ -191,12 +213,6 @@ html {
   width: 33.3%;
   margin-bottom: 20px;
   padding: 10px;
-  background-color: white;
-}
-
-.about-section {
-  padding: 50px;
-  text-align: center;
   background-color: white;
 }
 
