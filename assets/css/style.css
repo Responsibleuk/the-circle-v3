@@ -143,27 +143,6 @@ ul {
   background: url(../images/hero-images/after-forest-fire.jpg) no-repeat center center;
 }
 
-#hero-quote {
-  font-size: 200%;
-  font-family: raleway, sans-serif;
-  text-transform: uppercase;
-  letter-spacing: 6px;
-  text-align-last: center;
-
-  width: 600px;
-  height: 250px;
-
-  padding-top: 40px;
-  padding-left: 10px;
-
-  background-color: rgba(12, 60, 96, 255, .7);
-
-  top: 80px;
-  left: 650px;
-
-  position: absolute;
-}
-
 /* home */
 
 .introduction {

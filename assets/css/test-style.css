@@ -278,20 +278,6 @@ html {
 
 /* awareness pages */
 
-#awareness-about {
-
-  font-family: raleway, sans-serif;
-  text-transform: uppercase;
-  text-align-last: center;
-
-
-  width: 1250px;
-  height: 250px;
-
-  border-bottom: 30px;
-
-}
-
 #awareness {
   padding-top: 30px;
   width: 16.6%;
@@ -300,31 +286,11 @@ html {
 
 
 
-
-/* awareness pages */
-/* awareness page styling */
-.awarenes-layout-padding {
-  padding-left: 150px;
-  padding-right: 70px;
-}
-
-.awareness-columns {
-  content: '';
-  display: table;
-  clear: both;
-}
-
 .awareness-about {
   padding-top: 30px;
   padding-left: 100px;
   width: 33%;
   float: left;
-}
-
-.global-solutions {
-  padding-top: 30px;
-  width: 66%;
-  float: right;
 }
 
 #right-about {
@@ -379,12 +345,12 @@ li {
   color: #FFFFFF;
 }
 
-.emailSignup p {
+/* .emailSignup p {
   font-size: 20px;
   line-height: 1.4;
   margin: 0 0 20px;
   color: #D3D3D3;
-}
+} */
 
 .emailSignup form {
   text-align: center;
@@ -431,32 +397,7 @@ li {
   cursor: pointer;
 }
 
-*/
-
-/* climate justice */
-.container-cj {
-  display: grid;
-  grid-template-columns: 2.5fr 1.5fr;
-  grid-template-rows: 1.9fr 1.1fr;
-  gap: 20px 20px;
-  grid-template-areas:
-    "what facts"
-    "action action";
-}
-
-.facts {
-  grid-area: facts;
-}
-
-.what {
-  grid-area: what;
-}
-
-.action {
-  grid-area: action;
-}
-
-/* testing flex */
+/* grid */
 
 .flex-grid {
   display: block;
@@ -470,7 +411,7 @@ li {
   padding-left: 5px;
   padding-top: 5px;
   padding-bottom: 5px;
-}
+} */
 
 /* Clear floats after image containers */
 .row::after {
@@ -493,44 +434,3 @@ li {
   width: 50%;
 }
 
-/* footprint */
-#nav {
-  position: absolute;
-  left: 0px;
-  height: 40px;
-  background-color: #2C64B4;
-  width: 100%;
-  margin: 0 auto;
-}
-
-#nav ul {
-  margin: 0;
-  padding: 0;
-  list-style-type: none;
-}
-
-#nav ul li {
-  margin: 0;
-  padding: 0;
-  float: left;
-}
-
-#nav ul li a {
-  text-decoration: none;
-  padding: 10px 20px;
-  display: block;
-  color: #FFF;
-  text-align: center;
-}
-
-/* .column-half {
-    float: left;
-    width: 50%;
-  }
-  
-  /* Clear floats after the columns */
-  /* .row:after {
-    content: "";
-    display: table;
-    clear: both;
-  } */ */
