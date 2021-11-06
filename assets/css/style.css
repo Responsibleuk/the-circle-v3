@@ -52,6 +52,7 @@ li {
   font-size: 150%;
   float: left;
   margin-left: 40px;
+  padding-top: 50px;
 }
 
 /* navigation links */
@@ -143,7 +144,7 @@ ul {
   background: url(../images/hero-images/after-forest-fire.jpg) no-repeat center center;
 }
 
-#hero-quote {
+/* #hero-quote {
   font-size: 200%;
   font-family: raleway, sans-serif;
   text-transform: uppercase;
@@ -162,7 +163,7 @@ ul {
   left: 650px;
 
   position: absolute;
-}
+} */
 
 /* home */
 
@@ -184,7 +185,7 @@ ul {
 
 /* images home page */
 
-.flex-grid-home {
+/* .flex-grid-home {
   display: block;
   padding-left: 110px;
 }
@@ -195,7 +196,7 @@ ul {
   padding-left: 5px;
   padding-top: 5px;
   padding-bottom: 5px;
-}
+} */
 
 
 
@@ -211,10 +212,10 @@ ul {
 
 
 
-.awareness-six {
+/* .awareness-six {
   padding-left: 110px;
   padding-right: 110px;
-}
+} */
 
 .column {
   float: left;
@@ -286,31 +287,16 @@ ul {
 
 /* awareness pages */
 
-#awareness {
-  padding-top: 30px;
-  width: 16.6%;
-  float: left
-}
-
-
-
-.awareness-about {
-  padding-top: 30px;
-  padding-left: 110px;
-  width: 33%;
-  float: left;
-}
-
 #right-about {
   padding-top: 30px;
   width: 66%;
-  padding-left: 50px;
+  /* padding-left: 50px; */
   float: right;
 }
 
 #left-about {
   padding-top: 30px;
-  padding-right: 150px;
+  /* padding-right: 150px; */
   width: 33%;
   float: left;
 }
