@@ -48,21 +48,25 @@ li {
 }
 
 /* logo */
-#logo {
-  font-size: 150%;
-  float: left;
-  margin-left: 40px;
-  padding-top: 50px;
-}
+.logo {
+  display: inline-block;
+  vertical-align: bottom;
+  width: 100px;
+  height: 100px;
+  margin-left: 20px;
+  margin-top: 15px; 
+  float: left;}
 
 /* navigation links */
 #menu {
   font-size: 80%;
   letter-spacing: 6px;
   background-color: #fff;
+  vertical-align: top;
 }
 
-ul {
+#menu, 
+menu ul {
   display: flex;
   justify-content: flex-end;
   flex-direction: row;
