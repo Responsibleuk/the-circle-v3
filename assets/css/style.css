@@ -36,7 +36,6 @@ p {
   font-family: raleway, sans-serif;
   color: slategray;
   padding-bottom: 20px
-
 }
 
 /* ordered lists */
@@ -54,8 +53,9 @@ li {
   width: 100px;
   height: 100px;
   margin-left: 20px;
-  margin-top: 15px; 
-  float: left;}
+  margin-top: 15px;
+  float: left;
+}
 
 /* navigation links */
 #menu {
@@ -65,7 +65,7 @@ li {
   vertical-align: top;
 }
 
-#menu, 
+#menu,
 menu ul {
   display: flex;
   justify-content: flex-end;
@@ -173,12 +173,56 @@ menu ul {
 
 .introduction {
   padding-top: 50px;
-  padding-left: 110px;
-  padding-right: 110px;
+  padding-left: 100px;
+  padding-right: 100px;
   text-align: left;
+}
+
+.small-left-large-right {
+  display: block;
+  width: 100%;
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-bottom: 10px;
+}
+
+#left-about {
+  padding-top: 30px;
+  padding-left: 100px;
+  width: 25%;
+  float: left;
+}
+
+#right-about {
+  padding-top: 30px;
+  padding-right: 100px;
+  width: 50%;
+  float: right;
+}
+
+/*  */
+.awareness-six {
+  padding-left: 90px;
+  padding-right: 90px;
+  padding-top: 10px;
+
+}
+
+.column {
+  float: left;
+  width: 30%;
+  padding-left: 10px;
+  padding-right: 10px;
   background-color: white;
 }
 
+/* @media screen and (max-width: 650px) {
+  .column {
+    width: 100%;
+    display: block;
+  } */
+
+/* un */
 .un {
   padding-top: 50px;
   padding-left: 60px;
@@ -214,54 +258,12 @@ menu ul {
   box-sizing: inherit;
 } */
 
-
-
 /* .awareness-six {
   padding-left: 110px;
   padding-right: 110px;
 } */
 
-.column {
-  float: left;
-  width: 33.3%;
-  margin-bottom: 20px;
-  /* padding: 10px; */
-  background-color: white;
-}
-
-/* .container {
-  padding: 0px;
-} */
-
-/* .container::after,
-.row::after {
-  content: "";
-  clear: both;
-  display: table;
-}
-
-.button {
-  border: none;
-  outline: 0;
-  padding: 8px;
-  color: white;
-  background-color: #0C3C60;
-  text-align: center;
-
-}
-
-.button:hover {
-  background-color: #555;
-} */
-
-@media screen and (max-width: 650px) {
-  .column {
-    width: 100%;
-    display: block;
-  }
-
-  /* un sdg's */
-}
+/* un sdg's */
 
 #sdg {
 
@@ -291,19 +293,6 @@ menu ul {
 
 /* awareness pages */
 
-#right-about {
-  padding-top: 30px;
-  width: 66%;
-  /* padding-left: 50px; */
-  float: right;
-}
-
-#left-about {
-  padding-top: 30px;
-  /* padding-right: 150px; */
-  width: 33%;
-  float: left;
-}
 
 /* #inspire {
   padding-top: 30px;
@@ -409,7 +398,7 @@ li {
   padding-left: 5px;
   padding-top: 5px;
   padding-bottom: 5px;
-} */
+}
 
 /* Clear floats after image containers */
 .row::after {
@@ -431,4 +420,3 @@ li {
   margin-right: auto;
   width: 50%;
 }
-
