@@ -32,7 +32,8 @@ h4 {
   padding-bottom: 20px;
 }
 
-h5, h6 {
+h5,
+h6 {
   font-family: raleway, sans-serif;
   color: #0C3C60;
   font-size: medium;
@@ -49,6 +50,7 @@ p {
 }
 
 /* ordered lists */
+
 li {
   list-style-position: inside;
   font-family: raleway, sans-serif;
@@ -210,6 +212,21 @@ menu ul {
   float: right;
 }
 
+/* footprint */
+#carbon-neutral-about {
+  padding-top: 30px;
+  padding-left: 0px;
+  width: 45%;
+  float: left;
+}
+
+#net-zero-about {
+  padding-top: 30px;
+  padding-right: 100px;
+  width: 45%;
+  float: right;
+}
+
 /* .quote {
   height: auto; 
     width: auto; 
@@ -254,6 +271,21 @@ menu ul {
     width: 100%;
     display: block;
   } */
+
+/* facts */
+#facts {
+  margin-top: 20px;
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-bottom: 20px;
+}
+
+#facts li {
+  list-style-position: inside;
+  font-family: raleway, sans-serif;
+  color: slategray;
+  padding-bottom: 20px;
+}
 
 /* un */
 .un {
