@@ -32,6 +32,16 @@ h4 {
   padding-bottom: 20px;
 }
 
+h5, h6 {
+  font-family: raleway, sans-serif;
+  color: #0C3C60;
+  font-size: medium;
+  padding-top: 20px;
+  padding-bottom: 20px;
+
+}
+
+
 p {
   font-family: raleway, sans-serif;
   color: slategray;
@@ -200,6 +210,13 @@ menu ul {
   float: right;
 }
 
+/* .quote {
+  height: auto; 
+    width: auto; 
+    max-width: 200px; 
+    max-height: 200px;
+} */
+
 /*  */
 .awareness-six {
   padding-left: 90px;
@@ -219,8 +236,8 @@ menu ul {
   background-color: white;
 }
 
-.container a{
-text-decoration: none;
+.container a {
+  text-decoration: none;
   color: inherit;
 }
 
