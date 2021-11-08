@@ -541,10 +541,20 @@ li {
 
 
 
-.column-hope {
+#column-hope {
   float: left;
   flex-wrap: wrap;
-  width: 45%;
+  width: 75%;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 20px;
+  background-color: white;
+}
+
+#column-blog {
+  float: right;
+  flex-wrap: wrap;
+  width: 25%;
   padding-left: 10px;
   padding-right: 10px;
   padding-bottom: 20px;
