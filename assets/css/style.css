@@ -485,3 +485,27 @@ li {
   margin-right: auto;
   width: 50%;
 }
+
+/* hope */
+
+.box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.box div {
+  width: 100px;
+  height: 100px;
+}
+
+
+/* hope */
+.hopeimage {
+  float: left;
+  height: 200px;
+  width: 200px;
+}
+.hopetext {
+  float:right;
+}
