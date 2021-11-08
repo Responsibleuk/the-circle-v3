@@ -507,7 +507,7 @@ li {
 .container {
   border: 1px solid #0C3C60;
   padding: 20px;
-  max-width: 600px;
+  max-width: 650px;
   display: flex;}
   .image {
     padding: 20px;
@@ -557,3 +557,10 @@ li {
   padding-bottom: 20px;
   background-color: white;
 }
+
+#left-hope {
+  float: left;
+}
+
+#right-hope {
+  float: right;}
