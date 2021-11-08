@@ -488,16 +488,6 @@ li {
 
 /* hope */
 
-.box {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.box div {
-  width: 100px;
-  height: 100px;
-}
 
 
 /* hope */
@@ -515,22 +505,41 @@ li {
   float: right; */
 
 .container {
-  border: 3px solid #0C3C60;
+  border: 1px solid #0C3C60;
   padding: 20px;
-  max-width: 750px;
+  max-width: 600px;
   display: flex;
   &__image {
-    margin: 20px 20px 20px 20px;
+    padding: 20px;
     width: 200px;
     object-fit: contain;
     align-self: flex-start;
   }
   &__text {
-    padding-left: 20px;
-    flex: 1 1 auto;
-    flex-direction: column;
+    text-align: right;
   }
 }
+
+.container-hope {
+  border: 1px solid #0C3C60;
+  padding: 20px;
+  max-width: 300px;
+  display: flex;}
+  image {
+    padding: 10px;
+    width: 100px;
+    object-fit: contain;
+    justify-content: center;
+   flex-direction: column;
+  }
+  text {
+    text-align: right;
+    justify-content: center;
+   flex-direction: column;
+  } */
+}
+
+
 
 .column-hope {
   float: left;
