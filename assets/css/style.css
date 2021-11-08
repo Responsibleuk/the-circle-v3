@@ -116,42 +116,49 @@ menu ul {
 /* hero image */
 
 #hero-image {
-  height: 500px;
+  height: 400px;
   width: 100%;
   overflow: hidden;
   background: url(../images/hero-images/polar-ice-caps-melting.jpg) no-repeat center center;
 }
 
 #hero-image-climate-justice {
-  height: 500px;
+  height: 400px;
   width: 100%;
   overflow: hidden;
   background: url(../images/hero-images/flooding-india.jpg) no-repeat center center;
 }
 
 #hero-image-oil-refinery {
-  height: 500px;
+  height: 400px;
   width: 100%;
   overflow: hidden;
   background: url(../images/hero-images/oil-refinery.jpg) no-repeat center center;
 }
 
 #hero-image-protest {
-  height: 500px;
+  height: 400px;
   width: 100%;
   overflow: hidden;
   background: url(../images/hero-images/protest) no-repeat center center;
 }
 
+#hero-image-education-of-girls {
+  height: 400px;
+  width: 100%;
+  overflow: hidden;
+  background: url(../images/hero-images/education-of-girls.jpg) no-repeat center center;
+}
+
 #hero-image-hope {
-  height: 500px;
+  height: 400px;
   width: 100%;
   overflow: hidden;
   background: url(../images/hero-images/protest.jpg) no-repeat center center;
 }
 
 #hero-image-inspiration {
-  height: 500px;
+  height: 400px;
   width: 100%;
   overflow: hidden;
   background: url(../images/hero-images/after-forest-fire.jpg) no-repeat center center;
