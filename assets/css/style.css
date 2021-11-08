@@ -501,11 +501,43 @@ li {
 
 
 /* hope */
-.hopeimage {
+/* #hope-about {
+  padding-top: 30px;
+  padding-left: 0px;
+  width: 15%;
   float: left;
-  height: 200px;
-  width: 200px;
+} */
+
+/* #blog-about {
+  padding-top: 30px;
+  padding-right: 100px;
+  width: 25%;
+  float: right; */
+
+.container {
+  border: 3px solid #0C3C60;
+  padding: 20px;
+  max-width: 750px;
+  display: flex;
+  &__image {
+    margin: 20px 20px 20px 20px;
+    width: 200px;
+    object-fit: contain;
+    align-self: flex-start;
+  }
+  &__text {
+    padding-left: 20px;
+    flex: 1 1 auto;
+    flex-direction: column;
+  }
 }
-.hopetext {
-  float:right;
+
+.column-hope {
+  float: left;
+  flex-wrap: wrap;
+  width: 45%;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 20px;
+  background-color: white;
 }
