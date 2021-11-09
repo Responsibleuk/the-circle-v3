@@ -243,6 +243,8 @@ menu ul {
 
 }
 
+
+
 .column {
   float: left;
   flex-wrap: wrap;
@@ -590,10 +592,13 @@ li {
 
 #left-hope {
   float: left;
+  padding-left: 100px;
 }
 
 #right-hope {
-  float: right;}
+  float: right;
+  padding-right: 100px;
+}
 
 
   /* gallery */
