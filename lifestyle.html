@@ -9,67 +9,129 @@
   <!-- stylesheet -->
   <link rel="stylesheet" href="assets/css/style.css">
   <link rel="shortcut icon" type="image/png" href="assets/images/the-circle-logo-small.png">
-  <title>The Circle</title>
+  <link rel="shortcut icon" type="image/jpg" href="assets/images/logo/the-circle-favicon.jpg" />
+  <title>Lifestyle</title>
 </head>
-
-<!-- navigation menu -->
 
 <body>
   <header>
-    <a href="index.html">
-      <h1 id="logo">The Circle</h1>
-    </a>
-    <nav>
+    <nav href="index.html" class="navigation-bar">
+      <img class="logo" src="assets/images/logo/the-circle-logo.png">
       <ul id="menu">
-        <ul id="menu">
-          <li>
-            <a href="index.html">Home</a>
-          </li>
-          <li>
-            <a href="global-goals.html">Global Goals</a>
-          </li>
-          <li>
-            <a href="footprint.html">Footprint</a>
-          </li>
-          <li>
-            <a href="hope.html">Hope</a>
-          </li>
-          <li>
-            <a href="join-us.html">Join Us</a>
-          </li>
-          </div>
-        </ul>
+        <li>
+          <a href="index.html">Home</a>
+        </li>
+        <li>
+          <a href="global-goals.html">Global Goals</a>
+        </li>
+        <li>
+          <a href="footprint.html">Footprint</a>
+        </li>
+        <li>
+          <a href="hope.html">Hope</a>
+        </li>
+        <li>
+          <a href="join-us.html">Join Us</a>
+        </li>
         </div>
+      </ul>
     </nav>
   </header>
 
   <!-- hero image -->
   <section>
-    <div id="hero-image"></div>
+    <div id="hero-image-lifestyle"></div>
   </section>
 
+  <!-- waste -->
+  <section>
+    <section class="awareness-six">
+      <div id="left-about">
+        <div class="left-about-heading">
+          <h2>Climate Justice</h2>
+          <h4>
+            Not all climate impacts are created equal, or distributed equally. From extreme weather to rising sea
+            levels, the effects of climate change often have disproportionate effects on historically marginalized or underserved
+            communities. “Climate justice” is a term, and more than that a movement, that acknowledges climate change
+            can have differing social, economic, public health, and other adverse impacts on underprivileged
+            populations.
+          </h4>
+          <a class="quote" href="assets/images/quotes/1.jpg"><img src="assets/images/quotes/1.jpg" width="300"
+              height="300"></a>
+          <h5>Let everyone know you care about this issue and share this page.</h5>
 
-  
+          <!-- Load Facebook SDK for JavaScript -->
+          <div id="fb-root"></div>
+          <script async defer crossorigin="anonymous"
+            src="https://connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v12.0" nonce="kTqpO0re"></script>
+          <div class="fb-share-button" data-href="https://futureofearth.online/" data-layout="button" data-size="small">
+            <a target="_blank"
+              href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Ffutureofearth.online%2F&amp;src=sdkpreparse"
+              class="fb-xfbml-parse-ignore">Share</a></div>
+        </div>
+      </div>
+    </section>
 
-  <!-- footer image -->
-  <section class="footer-image">
-    <img src="assets/images/hero-images/protest.jpg" width="100%">
-  </section>
+    <!-- solutions -->
+    <section id="right-about">
+      <div class="right-about-heading">
+        <h2>Global Solutions</h2>
+        <p>The Rural Poor and Indigenous Peoples: "Climate change would probably exacerbate hunger and poverty
+          around the world... People who are highly dependent on farming, fishing or forestry will well see their
+          livelihoods destroyed." -The United Nations Environment Programme
+        </p>
+        <p>The Urban Poor: "Climate change will be accompanied by an increase in heat waves, often exacerbated by
+          increased humidity and urban air pollution, which would cause an increase in heat-related deaths...The
+          impact would be greatest in urban populations, affecting particularly the elderly, sick and those without
+          access to air-conditioning." -- Intergovernmental Panel on Climate Change.
+        </p>
+        <p>The Coastal Dwelling Poor: IPCC predicts "a widespread increase in the risk of flooding for many human
+          settlements... from both increased heavy precipitation and sea-level rise." Particularly hard hit will be
+          low-lying countries like Bangladesh and small island states whose very existence is threatened.
+        </p>
+        <p>Communities Already Affected by the Oil Industry: Communities that already bear the brunt of oil company
+          activities-such as the Ogoni in the Niger Delta, the Gwich'in in the Arctic Refuge, or African Americans
+          in Norco, Louisiana-face a "double whammy." First they are hit by the local environmental and human rights
+          problems associated by the oil industry. And then they face the prospect of their communities being
+          flooded or destroyed by climate change.
+        </p>
+      </div>
+      <div class="right-about-heading">
+        <h2>Individual Solutions</h2>
+        
+        </p>
+        <hr>
+        <ol id="individual">
+          <li>Research before you buy</li>
+          <li>Choose your food with care</li>
+          <li>Consider where you travel</li>
+          <li>Make a political impact</li>
+          <li>Carbon offset effectively</li>
+        </ol>
+    </section>
 
+    <img src="assets/images/black-line.jpg">
+    <section class="introduction">
+      <h3>Find out more about the education of girls</h3>
+    </section>
 
+    <!-- awareness image -->
+    <section class="footer-image">
+      <img src="assets/images/hero-images/protest.jpg" width="100%">
+    </section>
 
-  <!-- footer -->
-  <footer>
-    <div class="emailSignup">
-      <h2>Join The Circle</h2>
-      <p>Support our mission. Save our planet.</p>
-       
-      <form class="emailSignup--form">
-        <input type="email" class="emailSignup--email-input" placeholder="Please enter your email...">
-        <input type="submit" class="emailSignup--email-submit" value="Join">
-      </form>
-    </div>
-  </footer>
+    <!-- footer -->
+    <footer>
+      <div class="emailSignup">
+        <h2>Join The Circle</h2>
+        <p>Support our mission. Save our planet.</p>
+         
+        <form class="emailSignup--form">
+          <input type="email" class="emailSignup--email-input" placeholder="Please enter your email...">
+          <input type="submit" class="emailSignup--email-submit" value="Join">
+        </form>
+      </div>
+    </footer>
 </body>
 
 </html>

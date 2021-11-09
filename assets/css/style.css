@@ -159,6 +159,19 @@ menu ul {
   background: url(../images/hero-images/protest.jpg) no-repeat center center;
 }
 
+#hero-image-rewilding {
+  height: 400px;
+  width: 100%;
+  overflow: hidden;
+  background: url(../images/hero-images/elephants.jpg) no-repeat center center;
+}
+
+#hero-image-lifestyle {
+  height: 400px;
+  width: 100%;
+  overflow: hidden;
+  background: url(../images/hero-images/kung-fu-on-beach.jpg) no-repeat center center;
+}
 
 /* #hero-quote {
   font-size: 200%;
