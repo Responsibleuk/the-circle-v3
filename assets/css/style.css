@@ -554,20 +554,25 @@ li {
 .container-hope {
   border: 1px solid #0C3C60;
   padding: 20px;
-  max-width: 300px;
+  max-width: 350px;
   display: flex;}
   .image {
     padding: 10px;
     width: 100px;
     object-fit: contain;
-    justify-content: center;
+    justify-content: left;
    flex-direction: column;
   }
   text {
     text-align: right;
-    justify-content: center;
+    justify-content: right;
    flex-direction: column;
-  } */
+  }
+
+  p {
+    padding-left: 20px;}
+
+    h3 {padding-top: 20px;}
 
 
 #column-hope {
@@ -593,11 +598,18 @@ li {
 #left-hope {
   float: left;
   padding-left: 100px;
+  background-color: aliceblue;
 }
 
 #right-hope {
   float: right;
   padding-right: 100px;
+}
+
+.lifestyle {
+  
+  padding-left: 100px;
+  background-color: aliceblue;
 }
 
 
