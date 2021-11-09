@@ -270,6 +270,13 @@ menu ul {
 
 }
 
+.awareness-one {
+  padding-left: 90px;
+  padding-right: 70px;
+  padding-top: 10px;
+  padding-bottom: 100px;
+
+}
 
 
 .column {
@@ -325,31 +332,33 @@ menu ul {
   background-color: white;
 }
 
-/* hope */
-/* voice, choice, vote */
-#voice {
-  background-image: url(../images/hope/waste.jpg);
+
+/* next awareness */
+#next-education {
+  background-image: url(../images/hero-images/education-of-girls.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  width: 82%;
+  width: 100%;
   overflow: hidden;
-  margin-left: 90px;
-  margin-right: 90px;
-  margin-top: 20px;
-  margin-bottom: 20px;
+  padding-top: 50px;
+  margin-bottom: 50px;
 }
 
-#voice div{
+#next-education a{
+  color: #fff;
+  font-size: large;
+  text-decoration: none;
   background-color: rgba(0,0,0,.6);
-  width: 33.3%;
-  height: 300;
-  float:left;
   text-align: center;
-  border: saddlebrown;
-  padding: 20px;
+  padding-left: 200px;
+  padding-bottom: 100px;
+
+
   box-sizing: border-box;
 }
+
+/* hope */
 
 /* #voice h1, h3 {
   color: #FFFFFF;
@@ -418,12 +427,6 @@ menu ul {
 /* awareness pages */
 
 
-/* #inspire {
-  padding-top: 30px;
-  padding-right: 150px;
-  width: 33%;
-  float: left;
-} */
 
 /* ordered lists */
 li {
