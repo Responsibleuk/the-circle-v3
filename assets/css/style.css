@@ -51,6 +51,8 @@ p {
 
 .href {text-decoration: none;
   color: inherit;}
+
+
   
 
 /* ordered lists */
@@ -136,11 +138,11 @@ menu ul {
   background: url(../images/hero-images/oil-refinery.jpg) no-repeat center center;
 }
 
-#hero-image-protest {
+#hero-image-global-goals {
   height: 400px;
   width: 100%;
   overflow: hidden;
-  background: url(../images/hero-images/protest) no-repeat center center;
+  background: url(../images/hero-images/sdg-eye.jpg) no-repeat center center;
 }
 
 #hero-image-education-of-girls {
@@ -157,19 +159,6 @@ menu ul {
   background: url(../images/hero-images/protest.jpg) no-repeat center center;
 }
 
-#hero-image-inspiration {
-  height: 400px;
-  width: 100%;
-  overflow: hidden;
-  background: url(../images/hero-images/after-forest-fire.jpg) no-repeat center center;
-}
-
-#hero-image-truth {
-  height: 500px;
-  width: 100%;
-  overflow: hidden;
-  background: url(../images/hero-images/after-forest-fire.jpg) no-repeat center center;
-}
 
 /* #hero-quote {
   font-size: 200%;
@@ -306,6 +295,36 @@ menu ul {
   text-align: left;
   background-color: white;
 }
+
+/* hope */
+/* voice, choice, vote */
+#voice {
+  background-image: url(../images/hope/waste.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 82%;
+  overflow: hidden;
+  margin-left: 90px;
+  margin-right: 90px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+#voice div{
+  background-color: rgba(0,0,0,.6);
+  width: 33.3%;
+  height: 300;
+  float:left;
+  text-align: center;
+  border: saddlebrown;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+/* #voice h1, h3 {
+  color: #FFFFFF;
+}  */
 
 /* images home page */
 
