@@ -131,11 +131,18 @@ menu ul {
   background: url(../images/hero-images/flooding-india.jpg) no-repeat center center;
 }
 
-#hero-image-oil-refinery {
+#hero-image-waste {
   height: 400px;
   width: 100%;
   overflow: hidden;
-  background: url(../images/hero-images/oil-refinery.jpg) no-repeat center center;
+  background: url(../images/hero-images/waste.jpg) no-repeat center center;
+}
+
+#hero-image-footprint {
+  height: 400px;
+  width: 100%;
+  overflow: hidden;
+  background: url(../images/hero-images/traffic.jpg) no-repeat center center;
 }
 
 #hero-image-global-goals {
@@ -171,6 +178,13 @@ menu ul {
   width: 100%;
   overflow: hidden;
   background: url(../images/hero-images/kung-fu-on-beach.jpg) no-repeat center center;
+}
+
+#hero-image-greenwashing {
+  height: 400px;
+  width: 100%;
+  overflow: hidden;
+  background: url(../images/hero-images/greenwashing-hero.jpg) no-repeat center center;
 }
 
 /* #hero-quote {
@@ -638,3 +652,7 @@ li {
 #photos > img {
   width: 100%;
 }
+
+/* .fb-root {
+  padding-bottom: 50px;
+} */
