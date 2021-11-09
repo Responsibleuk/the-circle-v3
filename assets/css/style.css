@@ -274,7 +274,6 @@ menu ul {
   padding-left: 90px;
   padding-right: 70px;
   padding-top: 10px;
-  padding-bottom: 100px;
 
 }
 
@@ -339,23 +338,28 @@ menu ul {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+  height: 200px;
   width: 100%;
   overflow: hidden;
-  padding-top: 50px;
-  margin-bottom: 50px;
 }
 
 #next-education a{
   color: #fff;
-  font-size: large;
+  font: raleway, sans-serif;
+  text-transform: uppercase;
   text-decoration: none;
+  font-size: 25px;
+  display: flex;
+  justify-content: center;
   background-color: rgba(0,0,0,.6);
   text-align: center;
-  padding-left: 200px;
+  padding-top: 100px;
   padding-bottom: 100px;
-
-
   box-sizing: border-box;
+}
+
+#next-education a:hover {
+  font-weight: bolder;
 }
 
 /* hope */
