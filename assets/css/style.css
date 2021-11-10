@@ -49,11 +49,13 @@ p {
   padding-bottom: 20px
 }
 
-.href {text-decoration: none;
-  color: inherit;}
+.href {
+  text-decoration: none;
+  color: inherit;
+}
 
 
-  
+
 
 /* ordered lists */
 
@@ -343,7 +345,7 @@ menu ul {
   overflow: hidden;
 }
 
-#next-education a{
+#next-education a {
   color: #fff;
   font: raleway, sans-serif;
   text-transform: uppercase;
@@ -351,7 +353,7 @@ menu ul {
   font-size: 25px;
   display: flex;
   justify-content: center;
-  background-color: rgba(0,0,0,.6);
+  background-color: rgba(0, 0, 0, .6);
   text-align: center;
   padding-top: 75px;
   padding-bottom: 100px;
@@ -375,7 +377,7 @@ menu ul {
   overflow: hidden;
 }
 
-#next-education-girl a{
+#next-education-girl a {
   color: #fff;
   font: raleway, sans-serif;
   text-transform: uppercase;
@@ -383,7 +385,7 @@ menu ul {
   font-size: 25px;
   display: flex;
   justify-content: center;
-  background-color: rgba(0,0,0,.6);
+  background-color: rgba(0, 0, 0, .6);
   text-align: center;
   padding-top: 100px;
   padding-bottom: 100px;
@@ -408,7 +410,7 @@ menu ul {
   overflow: hidden;
 }
 
-#next-education-waste a{
+#next-education-waste a {
   color: #fff;
   font: raleway, sans-serif;
   text-transform: uppercase;
@@ -416,7 +418,7 @@ menu ul {
   font-size: 25px;
   display: flex;
   justify-content: center;
-  background-color: rgba(0,0,0,.6);
+  background-color: rgba(0, 0, 0, .6);
   text-align: center;
   padding-top: 75px;
   padding-bottom: 100px;
@@ -440,7 +442,7 @@ menu ul {
   overflow: hidden;
 }
 
-#next-education-wild a{
+#next-education-wild a {
   color: #fff;
   font: raleway, sans-serif;
   text-transform: uppercase;
@@ -448,7 +450,7 @@ menu ul {
   font-size: 25px;
   display: flex;
   justify-content: center;
-  background-color: rgba(0,0,0,.6);
+  background-color: rgba(0, 0, 0, .6);
   text-align: center;
   padding-top: 75px;
   padding-bottom: 100px;
@@ -472,7 +474,7 @@ menu ul {
   overflow: hidden;
 }
 
-#next-education-green a{
+#next-education-green a {
   color: #fff;
   font: raleway, sans-serif;
   text-transform: uppercase;
@@ -480,7 +482,7 @@ menu ul {
   font-size: 25px;
   display: flex;
   justify-content: center;
-  background-color: rgba(0,0,0,.6);
+  background-color: rgba(0, 0, 0, .6);
   text-align: center;
   padding-top: 75px;
   padding-bottom: 100px;
@@ -705,39 +707,48 @@ li {
   border: 1px solid #0C3C60;
   padding: 20px;
   max-width: 650px;
-  display: flex;}
-  .image {
-    padding: 20px;
-    width: 200px;
-    object-fit: contain;
-    align-self: flex-start;
-  }
-  .text {
-    text-align: right;
-  }
+  display: flex;
+}
+
+.image {
+  padding: 20px;
+  width: 200px;
+  object-fit: contain;
+  align-self: flex-start;
+}
+
+.text {
+  text-align: right;
+}
 
 .container-hope {
   border: 1px solid #0C3C60;
   padding: 20px;
   max-width: 350px;
-  display: flex;}
-  .image {
-    padding: 10px;
-    width: 100px;
-    object-fit: contain;
-    justify-content: left;
-   flex-direction: column;
-  }
-  text {
-    text-align: right;
-    justify-content: right;
-   flex-direction: column;
-  }
+  display: flex;
+}
 
-  p {
-    padding-left: 20px;}
+.image {
+  padding: 10px;
+  width: 100px;
+  object-fit: contain;
+  justify-content: left;
+  flex-direction: column;
+}
 
-    h3 {padding-top: 20px;}
+text {
+  text-align: right;
+  justify-content: right;
+  flex-direction: column;
+}
+
+p {
+  padding-left: 20px;
+}
+
+h3 {
+  padding-top: 20px;
+}
 
 
 #column-hope {
@@ -772,13 +783,13 @@ li {
 }
 
 .lifestyle {
-  
+
   padding-left: 100px;
   background-color: aliceblue;
 }
 
 
-  /* gallery */
+/* gallery */
 
 #photos {
   clear: both;
@@ -787,10 +798,16 @@ li {
   column-gap: 0;
 }
 
-#photos > img {
+#photos>img {
   width: 100%;
 }
 
 /* .fb-root {
   padding-bottom: 50px;
 } */
+
+.movies {
+  float: left;
+    background-size: cover;
+  background-color: black;
+}
