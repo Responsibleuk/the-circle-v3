@@ -332,9 +332,9 @@ menu ul {
 }
 
 
-/* next awareness */
+/* next awareness climate justice */
 #next-education {
-  background-image: url(../images/hero-images/education-of-girls.jpg);
+  background-image: url(../images/hero-images/extreme-drought.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -353,12 +353,143 @@ menu ul {
   justify-content: center;
   background-color: rgba(0,0,0,.6);
   text-align: center;
-  padding-top: 100px;
+  padding-top: 75px;
   padding-bottom: 100px;
+  padding-left: 300px;
+  padding-right: 300px;
   box-sizing: border-box;
 }
 
 #next-education a:hover {
+  font-weight: bolder;
+}
+
+/* next awareness climate justice */
+#next-education-girl {
+  background-image: url(../images/hero-images/waste.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 200px;
+  width: 100%;
+  overflow: hidden;
+}
+
+#next-education-girl a{
+  color: #fff;
+  font: raleway, sans-serif;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: 25px;
+  display: flex;
+  justify-content: center;
+  background-color: rgba(0,0,0,.6);
+  text-align: center;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  padding-left: 300px;
+  padding-right: 300px;
+  box-sizing: border-box;
+}
+
+#next-education-girl a:hover {
+  font-weight: bolder;
+}
+
+
+/* next awareness climate justice */
+#next-education-waste {
+  background-image: url(../images/hero-images/waste.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 200px;
+  width: 100%;
+  overflow: hidden;
+}
+
+#next-education-waste a{
+  color: #fff;
+  font: raleway, sans-serif;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: 25px;
+  display: flex;
+  justify-content: center;
+  background-color: rgba(0,0,0,.6);
+  text-align: center;
+  padding-top: 75px;
+  padding-bottom: 100px;
+  padding-left: 300px;
+  padding-right: 300px;
+  box-sizing: border-box;
+}
+
+#next-education-waste a:hover {
+  font-weight: bolder;
+}
+
+/* next awareness education */
+#next-education-wild {
+  background-image: url(../images/hero-images/elephants.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 200px;
+  width: 100%;
+  overflow: hidden;
+}
+
+#next-education-wild a{
+  color: #fff;
+  font: raleway, sans-serif;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: 25px;
+  display: flex;
+  justify-content: center;
+  background-color: rgba(0,0,0,.6);
+  text-align: center;
+  padding-top: 75px;
+  padding-bottom: 100px;
+  padding-left: 300px;
+  padding-right: 300px;
+  box-sizing: border-box;
+}
+
+#next-education-wild a:hover {
+  font-weight: bolder;
+}
+
+/* next awareness greenwashing */
+#next-education-green {
+  background-image: url(../images/hero-images/flooding-india.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 200px;
+  width: 100%;
+  overflow: hidden;
+}
+
+#next-education-green a{
+  color: #fff;
+  font: raleway, sans-serif;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: 25px;
+  display: flex;
+  justify-content: center;
+  background-color: rgba(0,0,0,.6);
+  text-align: center;
+  padding-top: 75px;
+  padding-bottom: 100px;
+  padding-left: 250px;
+  padding-right: 250px;
+  box-sizing: border-box;
+}
+
+#next-education-green a:hover {
   font-weight: bolder;
 }
 
