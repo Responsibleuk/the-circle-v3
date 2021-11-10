@@ -1,4 +1,4 @@
-ttp# The Circle
+The Circle
 
 The Circle aims to inform, educate and challenge the way we think helping to create a new collective consciousness that is needed to save our planet. We simplify the foundations of sustainability, explain the facts but also inspire people into taking action and direct them to the relevant organisations that they can get involved with
 
@@ -18,39 +18,92 @@ This website is for anybody who wants to learn more about sustainability and tak
   - The landing includes a photograph with text overlay to allow the user to see exactly which location this site would be applicable to. 
   - This section introduces the user to The Circle with a bold image of melting polar ice caps and a brief description of our purpse.
 
+  __Who we are and what we do__
+
   - __Awareness section__
-  - The user will also see six areas of sustainability, climate justice, carbon, footprint, carbon offsetting, ecosystem, waste and lifestyle.
+  - The user will also see six areas of sustainability, climate justice, waste, greenwashing, education of girls, rewilding and lifestyle.
   - The user will be able to click each image and will go through to a page containing more information about their choosen subject.
 
-- __The Footer__(not complete) 
+  __Facts section__
+  The user will be able to read a list of facts the highlight the importance of sustainability they are designed to make people think about the choices they make.
 
-  - The footer section includes links to the relevant social media sites for The Circle. The links will open to a new tab to allow easy navigation for the user. 
-  - The footer is valuable to the user as it encourages them to keep connected via social media
+- __The Footer__
 
-- __The Truth__
+  - The footer section includes a field for users to submit their email. 
+  - The footer is valuable to the user as they will be able to register for our weekly newsletter on how to be more sustainable.
 
-  - The user will see a list of sustainability facts
+- __Global Goals__
 
-![Gallery](https://github.com/lucyrush/readme-template/blob/master/media/love_running_gallery.png)
+  - The user will be introduced to the United Nations Sustainable Development Goals, a call for action by all countries – poor, rich and middle-income – to promote prosperity while protecting the planet. 
+  - There are 17 images, one for each goal, the user will be able to click on the image and, in a new window the user will be taken to the United Nations site for more information on that goal.
 
-- __Awareness__
+- __Footprint__
+
+- The user will learn about the fundamentals of carbon footprint, what is a carbon footprint, what does net zero mean and what does carbon neutral mean.
+- The user will then be able click through to the lifestyle page to see how they can reduce their carbon footprint.
+
+- __Hope__
+
+- The hope section is meant to inspire users that we can save our planet.
+- The hope pages includes things that are already happening to avert the climate crisis.
+- The user will also see links to our latest blog posts, the blog is our sister site www.futureofearth.online.
+- The user will be able to navigate to the lifestyle page to get solutions on how to become more sustainable.
+
+- __Join Us__
+
+- The user will be able to sign up to recieve our weekly newsletter on how to be more sustainable.
+
+- __Awareness pages x 6__
+
+- __Climate Justice__
+
+- The user will learn about title issue.
+- The user will learn about solutions to the issue.
+- The user will be able to navigate to another awareness page.
+
+- __Waste__ 
+
+- The user will learn about title issue.
+- The user will learn about solutions to the issue.
+- The user will be able to navigate to another awareness page.
+
+- __Greenwashing__ 
+
+- The user will learn about title issue.
+- The user will learn about solutions to the issue.
+- The user will be able to navigate to another awareness page.
+
+- __Education of girls__ 
+
+- The user will learn about title issue.
+- The user will learn about solutions to the issue.
+- The user will be able to navigate to another awareness page.
+
+- __Rewilding__ 
+
+- The user will learn about title issue.
+- The user will learn about solutions to the issue.
+- The user will be able to navigate to another awareness page.
+
+- __Lifestyle__
+
+- The user will learn about title issue.
+- The user will learn about solutions to the issue.
+- The user will be able to navigate to another awareness page.
 
 - __Inspiration__
 
-- __Action__
+- The user will see a list of films about the issues covered in website that we recommend users should watch.
+- There will be a video library of youtube videos that are designed to inpsire the user into action.
+- The user will be able to navigate to the lifestyle page to get solutions on how to become more sustainable.
 
 
 ### Features Left to Implement
 
-- Complete footer
-- Fix menu bar ordering
-- Finish additional page structures
 - Refine styling
 - Add content
 - Create video library
-- Create registration/signup page
-- Add links to partner organisations
-- 
+- Create links at bottom of pages
 
 ## Testing 
 
